@@ -1,4 +1,4 @@
-#Few assumptions/things to keep in mind - 
+# Few assumptions/things to keep in mind - 
 
 1. As I see on the (https://vayuh-web-app.web.app/) there are grids on the US map which match to a temperature value (using a color scale); but the granularity of the data you send us was much smaller, so the values are scattered on the map. If I increase the  rectangle grid size and then that gives a much better picture. Or alternatively we can calculate the temperature with the nearest neighbour. So that is based on the use case we are targeting. So I have't done all those for now, but can be easily achieved. 
 2. Since it was Lat/longitude values, I have taken the mean of the temperature value which falls on that particular grid in the map.
